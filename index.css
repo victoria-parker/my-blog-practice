@@ -1,0 +1,36 @@
+body{
+    position: relative;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#nav-bar{
+    background-color: wheat;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+#nav-bar > h3{
+    margin: 0;
+}
+#add-post-form{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction:column;
+    max-width: 500px;
+}
+#add-post-form button{
+    background-color: wheat;
+    border: 1px solid salmon;
+    border-radius: .25rem;
+    margin-top: 5px;
+    padding: .5rem 0;
+    width: 50%;
+    align-self: center;
+    cursor: pointer;
+}
+#add-post-form button:active{
+    background-color: salmon;
+}
